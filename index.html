@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Style links  -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="min-h-screen transition-all bg-gradient-to-r from-[#545555] to-[#0d3241] body">
+    <header class="">
+      <div class="container px-10 mx-auto">
+        <div class="flex justify-end items-center py-5 gap-2">
+          <button
+            class="bg-gradient-to-r btn1 from-[#545555] to-[#0d3241] border border-white w-8 h-8 rounded-full"
+          ></button>
+          <button
+            class="bg-gradient-to-r btn2 from-[#d6f2ff] to-[#fcffff] border border-white w-8 h-8 rounded-full"
+          ></button>
+          <button
+            class="bg-gradient-to-r btn3 from-[#001315] to-[#001e28] border border-white w-8 h-8 rounded-full"
+          ></button>
+        </div>
+      </div>
+    </header>
+
+    <section class="py-16">
+      <div class="container mx-auto px-32">
+        <div class="flex justify-center items-center">
+          <div class="">
+            <h2 class="text-7xl mb-6 text-center text-rose-100 h2 ">Just do it.</h2>
+
+            <div
+              class="flex bg justify-between mt-3 overflow-hidden bg-slate-900 rounded-full w-[400px]"
+            >
+              <input
+                class="px-5 input py-2 text-white outline-none bg-transparent w-[300px]"
+                placeholder="Add a task"
+                type="text"
+              />
+              <button
+                class="btn bg-white w-[80px] rounded-r-full active:scale-[0.9]"
+              >
+                I Got this
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex justify-center">
+          <ul class="ul-wrap"></ul>
+        </div>
+      </div>
+    </section>
+
+    <noscript>Browser java scriptni qollab quvvatlamaydi</noscript>
+    <script src="./app.js"></script>
+  </body>
+</html>
